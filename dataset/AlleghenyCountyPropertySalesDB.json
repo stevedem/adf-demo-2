@@ -1,0 +1,118 @@
+{
+	"name": "AlleghenyCountyPropertySalesDB",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSQL",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "PARID",
+				"type": "nvarchar"
+			},
+			{
+				"name": "PROPERTYHOUSENUM",
+				"type": "nvarchar"
+			},
+			{
+				"name": "PROPERTYFRACTION",
+				"type": "nvarchar"
+			},
+			{
+				"name": "PROPERTYADDRESSDIR",
+				"type": "nvarchar"
+			},
+			{
+				"name": "PROPERTYADDRESSSTREET",
+				"type": "nvarchar"
+			},
+			{
+				"name": "PROPERTYADDRESSSUF",
+				"type": "nvarchar"
+			},
+			{
+				"name": "PROPERTYADDRESSUNITDESC",
+				"type": "nvarchar"
+			},
+			{
+				"name": "PROPERTYUNITNO",
+				"type": "nvarchar"
+			},
+			{
+				"name": "PROPERTYCITY",
+				"type": "nvarchar"
+			},
+			{
+				"name": "PROPERTYSTATE",
+				"type": "nvarchar"
+			},
+			{
+				"name": "PROPERTYZIP",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "SCHOOLCODE",
+				"type": "nvarchar"
+			},
+			{
+				"name": "SCHOOLDESC",
+				"type": "nvarchar"
+			},
+			{
+				"name": "MUNICODE",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "MUNIDESC",
+				"type": "nvarchar"
+			},
+			{
+				"name": "RECORDDATE",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "SALEDATE",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "PRICE",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DEEDBOOK",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DEEDPAGE",
+				"type": "nvarchar"
+			},
+			{
+				"name": "SALECODE",
+				"type": "nvarchar"
+			},
+			{
+				"name": "SALEDESC",
+				"type": "nvarchar"
+			},
+			{
+				"name": "INSTRTYP",
+				"type": "nvarchar"
+			},
+			{
+				"name": "INSTRTYPDESC",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "AlleghenyCountyPropertySales"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

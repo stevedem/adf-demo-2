@@ -1,0 +1,121 @@
+{
+	"name": "AlleghenyCountyPropertySalesCSV",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ADLS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "AlleghenyCountyPropertySales.csv",
+				"fileSystem": "adf-demo"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "PARID",
+				"type": "String"
+			},
+			{
+				"name": "PROPERTYHOUSENUM",
+				"type": "String"
+			},
+			{
+				"name": "PROPERTYFRACTION",
+				"type": "String"
+			},
+			{
+				"name": "PROPERTYADDRESSDIR",
+				"type": "String"
+			},
+			{
+				"name": "PROPERTYADDRESSSTREET",
+				"type": "String"
+			},
+			{
+				"name": "PROPERTYADDRESSSUF",
+				"type": "String"
+			},
+			{
+				"name": "PROPERTYADDRESSUNITDESC",
+				"type": "String"
+			},
+			{
+				"name": "PROPERTYUNITNO",
+				"type": "String"
+			},
+			{
+				"name": "PROPERTYCITY",
+				"type": "String"
+			},
+			{
+				"name": "PROPERTYSTATE",
+				"type": "String"
+			},
+			{
+				"name": "PROPERTYZIP",
+				"type": "String"
+			},
+			{
+				"name": "SCHOOLCODE",
+				"type": "String"
+			},
+			{
+				"name": "SCHOOLDESC",
+				"type": "String"
+			},
+			{
+				"name": "MUNICODE",
+				"type": "String"
+			},
+			{
+				"name": "MUNIDESC",
+				"type": "String"
+			},
+			{
+				"name": "RECORDDATE",
+				"type": "String"
+			},
+			{
+				"name": "SALEDATE",
+				"type": "String"
+			},
+			{
+				"name": "PRICE",
+				"type": "String"
+			},
+			{
+				"name": "DEEDBOOK",
+				"type": "String"
+			},
+			{
+				"name": "DEEDPAGE",
+				"type": "String"
+			},
+			{
+				"name": "SALECODE",
+				"type": "String"
+			},
+			{
+				"name": "SALEDESC",
+				"type": "String"
+			},
+			{
+				"name": "INSTRTYP",
+				"type": "String"
+			},
+			{
+				"name": "INSTRTYPDESC",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
