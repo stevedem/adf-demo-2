@@ -1,6 +1,7 @@
 {
 	"name": "CopyPipeline_01",
 	"properties": {
+		"description": "My description",
 		"activities": [
 			{
 				"name": "Copy from ADLS to Azure SQL",
