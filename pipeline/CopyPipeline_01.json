@@ -5,6 +5,7 @@
 		"activities": [
 			{
 				"name": "Copy from ADLS to Azure SQL",
+				"description": "A simple pipeline",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
